@@ -40,14 +40,19 @@ $T(n)=1$ If $n \leq 1$, $3T(n/3)+n^5$ If $n>1$
 $3T(\frac{n}{3})+n^5$
 <br>
 <br>
-$9T(\frac{n}{9})+n^5+\frac{n^5}{3^4}$
+$9T(\frac{n}{9})+n^5+(\frac{3n}{3})^5$
 <br>
 <br>
-$27T(\frac{n}{27})+n^5+\frac{n^5}{3^4}+\frac{n^5}{9^4}$
+$27T(\frac{n}{27})+n^5+(\frac{3n}{3})^5+(\frac{9n}{9})^5$
 <br>
+<br>
+$27T(\frac{n}{27})+n^5+\frac{n^5}{3^4}+\frac{n^5}{9^4}$ After a bit of cancelling
 <br>
 ### Relation
 $i$: Iterations
+<br>
+$n^5+\frac{n^5}{3^4}+\frac{n^5}{9^4}$ Becomes ${n^5\sum_{n=1}}^i(\frac{1}{3})^{4n}$
+<br>
 <br>
 $3^iT(\frac{n}{3^i})+{n^5\sum_{n=1}}^i(\frac{1}{3})^{4n}$
 <br>
