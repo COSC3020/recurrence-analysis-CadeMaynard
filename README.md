@@ -40,10 +40,10 @@ $T(n)=1$ If $n \leq 1$, $3T(n/3)+n^5$ If $n>1$
 $3T(\frac{n}{3})+n^5$
 <br>
 <br>
-$9T(\frac{n}{9})+n^5+(\frac{3n}{3})^5$
+$9T(\frac{n}{9})+n^5+3(\frac{n}{3})^5$
 <br>
 <br>
-$27T(\frac{n}{27})+n^5+(\frac{3n}{3})^5+(\frac{9n}{9})^5$
+$27T(\frac{n}{27})+n^5+3(\frac{n}{3})^5+9(\frac{n}{9})^5$
 <br>
 <br>
 $27T(\frac{n}{27})+n^5+\frac{n^5}{3^4}+\frac{n^5}{9^4}$ After a bit of cancelling
@@ -59,7 +59,7 @@ $3^iT(\frac{n}{3^i})+{n^5\sum_{n=1}}^i(\frac{1}{3})^{4n}$
 $i = log_3n$
 <br>
 <br>
-$nT(1)+{n^5\sum_{n=1}}^{log_3n}(\frac{1}{3})^{4n}$ the sum with $log_3n$ is a constant and in the context of asymptotic compexity, can be ignored. Higher order terms can also be ignored.
+$nT(1)+{n^5\sum_{n=1}}^{log_3n}(\frac{1}{3})^{4n}$ the sum with $log_3n$ is bounded by a constant and in the context of asymptotic complexity, can be ignored. Lower-order terms can also be ignored.
 <br>
 <br>
 $T(1)+{n^5}$
