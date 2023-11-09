@@ -64,4 +64,4 @@ $nT(1)+{n^5\sum_{n=1}}^{log_3n}(\frac{1}{3})^{4n}$ the sum with $log_3n$ is boun
 <br>
 $T(1)+{n^5}$
 <br>
-$T(1)+{n^5}\in\Theta(n^5log_3n)$
+$T(1)+{n^5}\in\Theta(n^5)$
